@@ -10,9 +10,9 @@ This practice exercises cover topics such as:
 * Data structures.
 
 ## The Backpack Problem
-**Course:** Algorithms Analysis.
-**Date:** Fall of 2019.
-**Topics:** Algorithms analysis, Problem solving using algorithms, Dynamic programming.
+**Course:** Algorithms Analysis.<br>
+**Date:** Fall of 2019.<br>
+**Topics:** Algorithms analysis, Problem solving using algorithms, Dynamic programming.<br>
 **Technologies used:** Java.
 #### Description
 This program solves a problem proposed by the teacher called "The Backpack Problem" using dynamic progamming strategies.
@@ -35,9 +35,9 @@ Estás prácticas cubren temas como:
 * Estructuras de datos.
 
 ## El problema de la mochila
-**Materia:** Análisis de Algoritmos
-**Fecha:** Otoño del 2019.
-**Temas:** Análisis de algoritmos, Resolución de problemas utilizando algoritmos, Programación dinámica.
+**Materia:** Análisis de Algoritmos<br>
+**Fecha:** Otoño del 2019.<br>
+**Temas:** Análisis de algoritmos, Resolución de problemas utilizando algoritmos, Programación dinámica.<br>
 **Tecnologías utilizadas:** Java.
 #### Descripción:
 Este programa resuelve in programa propuesto por el profesor llamado "El Problema de la Mochila" utilizando la

@@ -13,7 +13,7 @@ This practice exercises cover topics such as:
 # Algoritmos y Estructuras de Datos
 En este repositorio puedes encontrar prácticas de programación que yo (Juan Antonio Sicardo) hice en la universidad.
 **Todo el código de este repositorio es original y fue escrito por mi utilizando el material de las clases como punto
-de partida**
+de partida.**
 
 Estás prácticas cubren temas como:
 * Análisis de algoritmos.

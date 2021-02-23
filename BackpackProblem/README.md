@@ -13,15 +13,15 @@ This program solves a problem proposed by the teacher called "The Backpack Probl
 #### Instructions
 **Compilation:** The source code is in the folder "src". The source code was written with Java 11 in mind so compatibility with other versions of Java is not guaranteed. To compile using console use:
 
-'''bash
+```
 javac Backpack.java
-'''
+```
 
 **Usage:** You can find the program compiled using Java 11 in the folder "cls". To run the program using the console use:
 
-'''bash
+```
 java Backpack
-'''
+```
 
 Then you are prompted to enter the backpack weight capacity in floating point number format and the number of objects inside the jewelry store. For each object you need to define it's name, profit and weight.
 
@@ -41,15 +41,15 @@ Este programa resuelve in programa propuesto por el profesor llamado "El Problem
 #### Instrucciones:
 **Compilación:** El código fuente se encuentra en la carpeta "src". El código fuente fué escrito tomando en cuenta la versión 11 de Java por lo que no se garantiza la compatibilidad con otras versiones de Java. Para compilar en consola hay que usar:
 
-'''bash
+```
 javac Backpack.java
-'''
+```
 
 **Usage:** Puedes encontrar el programa ya compilado con Java 11 en la carpeta "cls". Para correr el programa hay que usar:
 
-'''bash
+```
 java Backpack
-'''
+```
 
 El programa te pedirá ingresar la capacidad de carga en peso de la mochila utilizando numeros de punto flotante y la cantidad de objetos que hay en la joyería. Por cada objeto, el programa te pedirá definir su nombre, ganancia y peso.
 

@@ -6,7 +6,7 @@
 
 public class BinaryMultiplication{
 
-	//Eliminates any leading cero.
+	//Eliminates any leading zero.
 	private static int[] trimCeros(int[] binary){
 		int i, array[];
 		for(i = 0; binary[i] == 0 && i < binary.length -1; i++);

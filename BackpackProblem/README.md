@@ -45,7 +45,7 @@ Este programa resuelve in programa propuesto por el profesor llamado "El Problem
 javac Backpack.java
 ```
 
-**Modo de uso:** Puedes encontrar el programa ya compilado con Java 11 en la carpeta "cls". Para correr el programa hay que usar:
+**Modo de uso:** Puedes encontrar el programa ya compilado con Java 11 en la carpeta "cls". Para ejecutar el programa hay que usar:
 
 ```
 java Backpack

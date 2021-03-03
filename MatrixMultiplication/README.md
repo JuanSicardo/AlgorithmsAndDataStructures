@@ -34,7 +34,37 @@ When you run the program, it will print the result of the multiplication on the 
 **Tecnologías utilizadas:** Java.<br>
 
 #### Descripción:
-Este programa es una aplicación de consola que multiplica dos números de base n donde 2 <= n <= 16. Para realizar la multiplicación se utiliza la fórmula de multiplicación de Gauss, en el cuál se aplica la estategia de divide y vencerás, así como la recursión para encontrar el resultado de la multiplicación. Este programa principalmente tiene propósitos didácticos.
+Este programa es una aplicación de consola que multiplica realiza la multiplicación de dos matrices cuadradas y del mismo tamaño, utilizando la estrategia de divide y vencerás. El programa permite utilizar dos versiones de la estrategia de divide y vencerás, una de 8 productos (divide y vencerás común) y otra de 7 productos (algoritmo de Strassen). A continuación se explica cómo funcionan los algoritmos.
+
+**Algoritmo de 8 productos:**
+* Sea **A** y **B** las dos matrices a multiplicar, las dividimos en cuadrantes superior izquierdo, superior derecho, inferior izquierdo e inferior derecho, con lo que tenemos las sumbatrices **Asi**, **Asd**, **Aii**, **Aid**, **Bsi**, **Bsd**, **Bii**, **Bid**.
+* Se calcula cada uno de los cuadrantes de la matriz resultado **R**, donde:<br>
+**Rsi = (Asi * Bsi) + (Asd * Bii)**<br>
+**Rsd = (Asi * Bsd) + (Asd * Bid)**<br>
+**Rii = (Aii * Bsi) + (Aid * Bii)**<br>
+**Rid = (Aii * Bsd) + (Aid * Bid)**
+* Construimos la matriz resultado **R** a partir de los cuadrantes calculados.
+* Cómo podemos observar, para hacer el cálcuo anterior necesitamos realizar 8 productos y cada uno se hace siguiendo los pasos anteriores de forma recursiva par cada para de submatrices.
+
+**Algoritmo de 7 productos:**
+* Sea **A** y **B** las dos matrices a multiplicar, las dividimos en cuadrantes superior izquierdo, superior derecho, inferior izquierdo e inferior derecho, con lo que tenemos las sumbatrices **Asi**, **Asd**, **Aii**, **Aid**, **Bsi**, **Bsd**, **Bii**, **Bid**.
+* Se calculan 7 productos que denominaremos **P1**, **P2**, **P3**, **P4**, **P5**, **P6** y **P7**, donde:<br>
+**P1 = Asi * (Bsd - Bid)**<br>
+**P2 = (Asi + Asd) * Bid**<br>
+**P3 = (Aii + Aid) * Bsi**<br>
+**P4 = Aid * (Bii - Bsi)**<br>
+**P5 = (Asi + Aid) * (Bsi + Bid)**<br>
+**P6 = (Asd - Aid) * (Bii + Bid)**<br>
+**P7 = (Asi - Aii) * (Bsi + Bsd)**
+* Ahora se calculan los cuadrantes de la matriz resultado **R** usando los productos anteriores de la siguiente manera:<br>
+**Rsi = - P2 + P4 + P5 + P6**<br>
+**Rsd = P1 + P2**<br>
+**Rii = P3 + P4**<br>
+**Rid = P1 - P3 + P5 - P7**
+* Construimos la matriz resultado **R** a partir de los cuadrantes calculados.
+* Cómo podemos observar, para hacer el cálcuo anterior necesitamos realizar 8 productos y cada uno se hace siguiendo los pasos anteriores de forma recursiva para cada par de submatrices.
+
+Sea **N** el tamaño del arista de la matriz cuadrada, la complejidad asintótica del algoritmo de 8 productos es de **O(N^3)** y la complejidad asintótica del algoritmo de 7 productos es de aproximadament **O(N^2.807)**.
 
 #### Instrucciones:
 **Compilación:** El código fuente se encuentra en la carpeta "src". El código fuente fue escrito tomando en cuenta la versión 11 de Java por lo que no se garantiza la compatibilidad con otras versiones de Java. Para compilar en consola hay que usar:

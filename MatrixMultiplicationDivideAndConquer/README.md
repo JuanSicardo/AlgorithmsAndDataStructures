@@ -1,6 +1,6 @@
 **Español más abajo**
 
-# Gauss Multiplication
+# Matrix Multiplication (Divide and Conquer)
 **Course:** Algorithms Analysis.<br>
 **Date:** Fall of 2019.<br>
 **Topics:** Algorithms analysis, Problem solving using algorithms, Divide and conquer, recursion.<br>
@@ -60,7 +60,7 @@ After executing the program, it will print the result of the matrix multiplicati
 
 
 
-# Multiplicación de Gauss
+# Multiplicación de Matrices (Divide y Vencerás)
 **Materia:** Análisis de Algoritmos<br>
 **Fecha:** Otoño de 2019.<br>
 **Temas:** Análisis de algoritmos, Resolución de problemas utilizando algoritmos, Divide y vencerás, Recursividad.<br>

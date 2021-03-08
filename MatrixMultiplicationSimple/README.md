@@ -23,7 +23,19 @@ or just simply
 make
 ```
 
-**Usage:** When executing the program, the user has to enter the number of rows and columns that the first matrix has, and the number of columns of the second matrix, all these values ​​are integers. Then the user will be asked to enter each of the elements of the matrix in the order indicated. The elements of the arrays can be numbers in floating point format.
+**Usage:** After compiling the program, it can be executed on Windows with:
+
+```
+matrixmultiplication
+```
+
+or in Linux with:
+
+```
+./matrixmultiplication.exe
+```
+
+When executing the program, the user has to enter the number of rows and columns that the first matrix has, and the number of columns of the second matrix, all these values ​​are integers. Then the user will be asked to enter each of the elements of the matrix in the order indicated. The elements of the arrays can be numbers in floating point format.
 
 Once this is done, the program will print the matrices to be multiplied in order for the user to verify that the information was entered correctly, and then the result matrix is ​​printed on the console.
 
